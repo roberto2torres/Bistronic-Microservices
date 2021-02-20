@@ -1,5 +1,6 @@
 const restaurants = require('./services/restaurants');
 const tables = require('./services/tables');
+const discounts = require('./services/discounts');
 
 // Restaurant Service
 exports.addRestaurant = restaurants.addRestaurant;
@@ -16,3 +17,10 @@ exports.updateTable = tables.updateTable;
 exports.deleteTable = tables.deleteTable;
 exports.getTableById = tables.getTableById;
 exports.getTablesByRestaurant = tables.getTablesByRestaurant;
+
+// Discounts Service
+exports.addDiscount = discounts.addDiscount;
+exports.updateDiscount = discounts.updateDiscount;
+exports.deleteDiscount = discounts.deleteDiscount;
+exports.getDiscountById = discounts.getDiscountById;
+exports.getDiscountsByRestaurant = tables.getDiscountsByRestaurant;
