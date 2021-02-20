@@ -23,4 +23,4 @@ exports.addDiscount = discounts.addDiscount;
 exports.updateDiscount = discounts.updateDiscount;
 exports.deleteDiscount = discounts.deleteDiscount;
 exports.getDiscountById = discounts.getDiscountById;
-exports.getDiscountsByRestaurant = tables.getDiscountsByRestaurant;
+exports.getDiscountsByRestaurant = discounts.getDiscountsByRestaurant;
